@@ -19,10 +19,19 @@ The last part of the section is the use of the frequency domain. This explores h
 By using this frequency domain, it reveals the role of periodic behaviors, daily and weekly cycles, in disease spread. This also provides a basis for predicting and mitigating periodic spikes in infection rates.
 
 **Implications**
-By using these models, the public health service department can model diseases and produce prevention 
+By using these models, the public health service department can model diseases and produce prevention tactices when given a condensed city. This could help for scenario testing, policy planning, impact analysis, epidemiological forecasting, and the design of effective prevention tactics. 
 
 **Implementation**
-Each segment should be used in MATLAB. Change the conditions to match 
+Each segment should be used in MATLAB
+Part I: Modify initial conditions and parameters (S0,I0,R0,Beta,Gamma and T). Customize the time step h to suit the resolution
+Part II: Input data timesteps with corresponding S(t), I(t), and R(t) values. Choose linear or quadratic methods based on accuracy needs.
+Part III: Provide observed data(time series of infected I(t)) and initial conditions. Adjust the code to estimate parameters and update S0 and N to reflect user's population size and disease dynamics. 
+Part IV: Input custom periodic variations for daily or weekly cycles. Run the code on outputs of S(t), I(t), and R(t). Adjust the frequency vector and sampling rate to match user's data resolution. 
+
+Each segment can be used independently or combined into a comprehensive model.
 
 **Contributors**
-Josh Dearlove, Havenly Lopez
+Josh Dearlove
+Havenly Lopez
+Elijah Paz
+Evan Schlueter
