@@ -31,7 +31,7 @@ Part IV: Input custom periodic variations for daily or weekly cycles. Run the co
 Each segment can be used independently or combined into a comprehensive model.
 
 **Contributors**
-Josh Dearlove
-Havenly Lopez
-Elijah Paz
+Josh Dearlove,
+Havenly Lopez,
+Elijah Paz,
 Evan Schlueter
