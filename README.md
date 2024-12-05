@@ -26,3 +26,4 @@ Each segment should be used in MATLAB. Change the conditions to match
 
 **Contributors**
 Josh Dearlove
+Havenly Lopez
