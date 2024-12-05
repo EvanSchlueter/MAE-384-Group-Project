@@ -25,5 +25,4 @@ By using these models, the public health service department can model diseases a
 Each segment should be used in MATLAB. Change the conditions to match 
 
 **Contributors**
-Josh Dearlove
-Havenly Lopez
+Josh Dearlove, Havenly Lopez
